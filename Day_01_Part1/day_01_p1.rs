@@ -2,7 +2,7 @@ use std::fs::File;
 use std::io::{self, BufRead, BufReader};
 
 fn main() -> io::Result<()> {
-    let filename = "/home/juhi/etn-electrical/advent_2024/src/input.txt";
+    let filename = "input.txt";
     let file = File::open(filename)?;
     let reader = BufReader::new(file);
 
